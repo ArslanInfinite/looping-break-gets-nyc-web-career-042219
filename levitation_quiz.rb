@@ -15,12 +15,12 @@ end
   3.	    name = gets
   4.	    puts "Your name is #{name}!"
   5.	end
-  6.	 
+  6.
   7.	greeting
 
 
   def annoying
-  	loop do 
+  	loop do
   		puts "What's up, Doc?"
   		answer = gets.chomp
   		break if answer == "STOP"
